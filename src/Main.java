@@ -30,6 +30,7 @@ public class Main {
             for (int i = 0; i < lengthOne; i++) {
                 if (arrayOne[i] != arrayTwo[i]) {
                     same = false;
+                    break;
                 }
             }
         }
